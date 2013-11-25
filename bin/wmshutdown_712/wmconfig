@@ -1,0 +1,38 @@
+#*******************************************************************
+#               BEGIN STANDARD PROPERTY CONFIGURATION
+#*******************************************************************
+
+#-----------------------------------------
+#      WebMethods server settings
+#-----------------------------------------
+
+#--WM Server host/IP
+wm_server=localhost
+
+#--WM Server Port
+wm_port=5555
+
+#--WM user id
+wm_user=Administrator
+
+#--WM user password
+wm_pws=manage
+
+wm_server_connection=CLIENT
+
+wm_service=wm.server.admin:shutdown
+
+# Input parameters
+#bounce = "yes"/"no" - restart
+#option = "force" - imidiate or wait for timeout
+#timeout = "seconds" - wait timeout before restart or sutdown initaited
+#If timeout is ignored then timeout is retrieved from server property:
+#watt.server.clientTimeout
+
+#wm_restart=yes
+wm_option=force
+#wm_timeout=1000
+
+#******************************************************************
+#             END STANDARD PROPERTY CONFIGURATION
+#******************************************************************
